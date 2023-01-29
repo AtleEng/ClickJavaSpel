@@ -5,7 +5,7 @@ clickingButton.addEventListener("click", OnCoinButtonClick);
 
 
 //coin
-let coinAmount = 100000;
+let coinAmount = 0;
 let coinLabel = document.querySelector(".coinLabel");
 
 //Uppgrades var
