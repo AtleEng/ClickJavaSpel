@@ -1,0 +1,59 @@
+* {
+    text-align: center;
+    color: gold;
+}
+
+body {
+    background-color: wheat;
+}
+
+
+
+canvas {
+    background-color: aliceblue;
+    border: 3% solid black;
+}
+
+h1 {
+    font-size: 150%;
+    color: black;
+}
+
+h2 {
+    margin-bottom: 0%;
+    color: black;
+}
+
+h3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: black;
+}
+
+button {
+    background-color: rgb(92, 40, 31);
+    margin: 10%;
+    margin-bottom: 10%;
+
+    height: 70%;
+    width: 90%;
+}
+
+.coinLabel {
+    color: black;
+}
+
+.movingbutton {
+    margin: auto;
+    display: block;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+}
+
+.shopButtons {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
